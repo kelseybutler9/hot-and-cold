@@ -8,10 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Hot and Cold</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Guess a number between 1 and 100. THe system will notfiy you if it is hot(close) or cold(far) from the actual number. Keep guessing until you guess the correct number.
         </p>
       </div>
     );
